@@ -89,7 +89,6 @@ export default function AddProduct() {
               onChange={(e) => setCategory(e.target.value as Category)}
               className="w-full rounded-2xl border border-slate-200 bg-slate-50 px-5 py-4 text-slate-900 outline-none transition-all focus:border-emerald-400 focus:bg-white focus:ring-4 focus:ring-emerald-100"
             >
-              <option value="all">All</option>
               <option value="MensClothes">Men&apos;s Clothes</option>
               <option value="WomensClothes">Women&apos;s Clothes</option>
               <option value="KidsClothes">Kid&apos;s Clothes</option>

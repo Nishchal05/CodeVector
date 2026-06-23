@@ -11,7 +11,6 @@ type CategoryContextType = {
   setCurrentPage: React.Dispatch<React.SetStateAction<number>>;
   nextlistid:number;
   setnextlistid:React.Dispatch<React.SetStateAction<number>>;
-
 };
 
 export const CategoryContext = createContext<CategoryContextType | null>(null);

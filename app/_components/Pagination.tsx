@@ -7,7 +7,7 @@ type PaginationProps={
     setprevlistid:React.Dispatch<React.SetStateAction<number>>;
 }
 export default function pagination({firstitem,lastitem,setprevlistid}:PaginationProps){
-    console.log(firstitem,lastitem);
+   
     const context=useContext(CategoryContext);
     if (!context) {
         throw new Error("Navbar must be used within a Context provider");
